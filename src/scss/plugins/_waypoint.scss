@@ -1,0 +1,15 @@
+// 
+// Waypoint
+// 
+
+header.masthead > * ,
+section > * {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all ease .5s;
+}
+header.masthead.scroll-visible > * ,
+section.scroll-visible > * {
+    opacity: 1;
+    transform: translateY(0);
+}

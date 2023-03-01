@@ -1,0 +1,53 @@
+// 
+// Global theme styling
+// 
+
+// Scroll padding for all scroll targets on page used with
+// native CSS smooth scrolling
+// 
+// https://caniuse.com/?search=scroll-padding
+:root {
+    --bs-body-color: #FFF;
+}
+
+html {
+    scroll-padding-top: calc(4.5rem - 1px);
+}
+
+body {
+    letter-spacing: $base-letter-spacing;
+}
+
+h1 {
+    font-family: $font-family-special;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    // background: linear-gradient(fade-out($white, 0.1), fade-out($white, 1));
+    // -webkit-text-fill-color: transparent;
+    // background-clip: text;
+    @include media-breakpoint-up(md) {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+        letter-spacing: 0.8rem;
+    }
+}
+
+h2 {
+    max-width: 100%;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    @include media-breakpoint-up(lg) {
+        font-size: 1.6rem;
+        letter-spacing: 0.35rem;
+    }
+}
+
+a, a:hover, a:focus {
+    color: $primary;
+    text-decoration: none;
+}

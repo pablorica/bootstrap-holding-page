@@ -1,0 +1,21 @@
+// 
+// Styles
+// 
+
+// Import variables
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./global.scss";
+
+
+// Sections
+@import "./sections/masthead.scss";
+@import "./sections/about.scss";
+//@import "./sections/footer.scss";
+
+// Plugins
+@import "./plugins/waypoint.scss";

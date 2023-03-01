@@ -1,0 +1,41 @@
+// 
+// Masthead
+// 
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 35rem;
+    padding: 0;
+
+    background-image: url("../assets/img/bg-pattern.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    h1 {
+        background-image: url("../assets/img/YAC_Logo-white.svg");
+        background-position: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        white-space: nowrap;
+        //border: thin solid yellow;
+        width: 80vw;
+        height: 8vw;
+        transition: all ease 0.5s;
+        @include media-breakpoint-up(md) {
+            width: 60vw;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 40vw;
+        }
+    }
+    br.h2-header-break {
+        @media screen and (min-width: 410px) {
+            display: none;
+        }
+    }
+}
