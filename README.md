@@ -80,11 +80,7 @@ Codigo Bootstrap Holding Page was created by and is maintained by **[Pablo Rica]
 
 Codigo Bootstrap Holding Page is based on the [Grayscale](https://startbootstrap.com/theme/grayscale/) tempalte created and maintained by **[David Miller](https://davidmiller.io/)**.
 
-- <https://davidmiller.io>
-
-- <https://twitter.com/davidmillerhere>
-
-- <https://github.com/davidtmiller>The [Bootstrap](https://getbootstrap.com/) framework was created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+The [Bootstrap](https://getbootstrap.com/) framework was created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
